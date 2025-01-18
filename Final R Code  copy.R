@@ -115,6 +115,7 @@ emmeans(accuracyab, "condition") %>% pairs() %>% update(by = NULL, adjust = "hol
 # Now A and B separately: 
 accuracyA <- aov_ez("id", "accuracy_A", accuracy, between = "condition") 
 summary(accuracyA) 
+# EDITING ON GITHUB HAHAHHA 
 
 # Anova Table (Type 3 tests) 
 # Response: accuracy_A
